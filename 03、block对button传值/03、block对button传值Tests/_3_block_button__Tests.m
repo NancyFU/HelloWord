@@ -1,19 +1,19 @@
 //
-//  HelloWordTests.m
-//  HelloWordTests
+//  _3_block_button__Tests.m
+//  03、block对button传值Tests
 //
-//  Created by tens04 on 16/8/22.
+//  Created by tens04 on 16/8/23.
 //  Copyright (c) 2016年 tens04. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface HelloWordTests : XCTestCase
+@interface _3_block_button__Tests : XCTestCase
 
 @end
 
-@implementation HelloWordTests
+@implementation _3_block_button__Tests
 
 - (void)setUp {
     [super setUp];

@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C996D6CD-6826-4B5A-A7A1-AA46F46AE45C</string>
+	<string>4266CF36-C370-437C-8114-D35BA9230E54</string>
 	<key>IDESourceControlProjectName</key>
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/NancyFU/HelloWord.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HelloWord/HelloWord.xcodeproj/project.xcworkspace</string>
+	<string>03、block对button传值/03、block对button传值.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5617091022C915A30F9AE9947965A00A187B3924</key>
