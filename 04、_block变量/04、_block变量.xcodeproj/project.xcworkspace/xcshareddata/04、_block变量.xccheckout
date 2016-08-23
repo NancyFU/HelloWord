@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84A45AA3-4279-49D3-B63A-B4E5B715FA41</string>
+	<key>IDESourceControlProjectName</key>
+	<string>04、_block变量</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5617091022C915A30F9AE9947965A00A187B3924</key>
+		<string>https://github.com/NancyFU/HelloWord.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>04、_block变量/04、_block变量.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5617091022C915A30F9AE9947965A00A187B3924</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NancyFU/HelloWord.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5617091022C915A30F9AE9947965A00A187B3924</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5617091022C915A30F9AE9947965A00A187B3924</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HelloWord</string>
+		</dict>
+	</array>
+</dict>
+</plist>
