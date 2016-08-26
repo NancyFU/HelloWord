@@ -7,11 +7,11 @@
 
 #import "ViewController.h"
 #define kClockW [UIScreen mainScreen].bounds.size.width
-#define perSecondA 6        // 1秒6度(秒针)
-#define perMintueA 6        // 1分钟6度(分针)
-#define perHourA 30         // 1小时30度（时针）
-#define perMinHourA 0.5     // 每分钟时针转(30 / 60 °)
-#define angle2radion(angle) ((angle) / 180.0 * M_PI)   //将角度转化为弧度
+#define PerSecondA 6        // 1秒6度(秒针)
+#define PerMintueA 6        // 1分钟6度(分针)
+#define PerHourA 30         // 1小时30度（时针）
+#define PerMinHourA 0.5     // 每分钟时针转(30 / 60 °)
+#define Angle2radion(angle) ((angle) / 180.0 * M_PI)   //将角度转化为弧度
 
 @interface ViewController ()
 
@@ -37,6 +37,7 @@
     [self.view.layer addSublayer:self.layerS];
     
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
+    [self timeChange];
 }
 
 //设置背景图片
@@ -103,21 +104,21 @@
     CGFloat second = cmp.second;
     
     //秒数*度数
-    CGFloat secondA = (second * perSecondA) ;
+    CGFloat secondA = (second * PerSecondA) ;
     
     NSInteger minute = cmp.minute;
     
-    CGFloat mintuteA = minute * perMintueA ;
+    CGFloat mintuteA = minute * PerMintueA ;
     
     NSInteger hour = cmp.hour;
     
-    CGFloat hourA = hour * perHourA  + minute * perMinHourA;
+    CGFloat hourA = hour * PerHourA  + minute * PerMinHourA;
     
-    _layerS.transform = CATransform3DMakeRotation(angle2radion(secondA), 0, 0, 1);
+    _layerS.transform = CATransform3DMakeRotation(Angle2radion(secondA), 0, 0, 1);
     
-    _layerM.transform = CATransform3DMakeRotation(angle2radion(mintuteA), 0, 0, 1);
+    _layerM.transform = CATransform3DMakeRotation(Angle2radion(mintuteA), 0, 0, 1);
     
-    _layerH.transform = CATransform3DMakeRotation(angle2radion(hourA), 0, 0, 1);
+    _layerH.transform = CATransform3DMakeRotation(Angle2radion(hourA), 0, 0, 1);
 }
 
 
